@@ -1,51 +1,105 @@
-# E-Commerce-Sales-Analytics
-E-Commerce Sales Analytics Dashboard built using Power BI
-# E-Commerce Sales Analytics Dashboard
+# 📊 E-Commerce Sales Analytics
 
-## 📊 Project Overview
+An end-to-end data analytics project using **MySQL, SQL, and Power BI** to analyze e-commerce sales performance and generate business insights.
 
-This project analyzes e-commerce sales data using Microsoft Power BI
-to understand sales performance, customer segments, products,
-payment methods, order status, categories, and regional performance.
+## 🎯 Project Overview
+
+This project analyzes e-commerce data across customers, products, orders, and payments.
+
+The workflow covers data analysis using SQL and presents the final business insights through an interactive Power BI dashboard.
+
+### 🔄 Project Workflow
+
+Raw Data → MySQL → SQL Analysis → Power BI → Dashboard
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- Power BI
-- Power Query
-- DAX
-- Excel / CSV
-- Data Cleaning
-- Data Visualization
+- **MySQL**
+- **SQL**
+- **Power BI**
+- **DAX**
+- **Power Query**
+- **Data Cleaning**
+- **Data Visualization**
 
-## 📌 Dashboard KPIs
+---
 
-- Total Customers: 1.183K
-- Total Net Sales: 42.72M
-- Total Quantity: 10K
-- Total Orders: 5K
+## 📂 Dataset
 
-## 📈 Dashboard Analysis
+The project contains data related to:
 
-The dashboard provides analysis of:
+- Customers
+- Products
+- Orders
+- Payments
 
-- Monthly Revenue
-- Revenue by Category
-- Revenue by Payment Method
-- Sales by Product
+---
+
+## 🔎 SQL Analysis
+
+SQL was used to analyze:
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Units Sold
+- Average Order Value
+- Monthly Sales
 - Sales by Region
-- Customer Segment Analysis
+- Sales by Category
+- Payment Method Performance
 - Order Status
-- Delivery Days by Region
+- Top Products
+- Top Customers
+- Customer Repeat Purchase Behavior
+- Discount Impact on Profit
+- Product Profitability
 
-## 🔍 Key Insights
+SQL views were also created for:
 
-- Identified monthly revenue trends.
-- Compared revenue across different product categories.
-- Analyzed customer segments based on sales contribution.
-- Compared different payment methods.
-- Evaluated regional sales performance.
-- Analyzed order status distribution.
+- Sales Summary
+- Product Performance
+- Customer Performance
 
-## 📂 Files
+---
 
-- `E-Commerce-Sales-Analytics.pbix` – Power BI dashboard<img width="767" height="431" alt="1000633495" src="https://github.com/user-attachments/assets/afa9e9d4-0e1b-4646-9574-26cee4301d79" />
+## 📊 Power BI Dashboard
+
+The Power BI dashboard includes:
+
+- 💰 Total Revenue
+- 📈 Total Profit
+- 🛒 Total Orders
+- 👥 Total Customers
+- 📦 Units Sold
+- 📅 Monthly Revenue
+- 🌍 Revenue by Region
+- 🏷️ Revenue by Category
+- 🏆 Top 10 Products
+- 📋 Orders by Status
+- 💳 Revenue by Payment Method
+
+---
+
+## 🖼️ Dashboard Preview
+
+![E-Commerce Sales Analytics Dashboard](Dashboard.png)
+
+---
+
+## 📁 Project Structure
+
+```text
+E-Commerce-Sales-Analytics/
+│
+├── README.md
+│
+├── E-Commerce-Sales-Analytics.pbix
+│
+├── Dashboard.png
+│
+└── sql/
+    ├── ecommerce_analysis.sql
+    └── views.sql
